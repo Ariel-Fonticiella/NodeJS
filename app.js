@@ -5,6 +5,7 @@ greet();
 
 
 
+
 /*****************SECOND PATTERN TYPE FOR MODULES******************************/
 // Remember that the require('./greet2') function only returns the
 // "modules.exports" from the greet2.js, so you need to be able to call the
@@ -55,3 +56,15 @@ greet2();
 var greet3 = require('./greet3');
 greet3.greet();
 /******************THIRD PATTERN TYPE FOR MODULES******************************/
+
+
+
+
+/******************FOURTH PATTERN TYPE FOR MODULES*****************************/
+var Greet4 = require('./greet4');
+var grtr = new Greet4();
+grtr.greet();
+/******************FOURTH PATTERN TYPE FOR MODULES*****************************/
+
+
+/***** YOU WERE BY 15:00 just starting the greet5.js part. ****/
