@@ -51,7 +51,6 @@ greet2();
 
 
 
-
 /******************THIRD PATTERN TYPE FOR MODULES******************************/
 var greet3 = require('./greet3');
 greet3.greet();
@@ -67,4 +66,8 @@ grtr.greet();
 /******************FOURTH PATTERN TYPE FOR MODULES*****************************/
 
 
-/***** YOU WERE BY 15:00 just starting the greet5.js part. ****/
+
+/******************FIFTH PATTERN TYPE FOR MODULES******************************/
+var greet5 = require('./greet5').greet;
+greet5();
+/******************FIFTH PATTERN TYPE FOR MODULES******************************/
